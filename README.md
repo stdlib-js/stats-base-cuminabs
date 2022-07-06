@@ -30,38 +30,30 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-cuminabs
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-cuminabs = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-cuminabs@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var cuminabs = require( 'path/to/vendor/umd/stats-base-cuminabs/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-cuminabs@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.cuminabs;
-})();
-</script>
+var cuminabs = require( '@stdlib/stats-base-cuminabs' );
 ```
 
 #### cuminabs( N, x, strideX, y, strideY )
@@ -161,16 +153,11 @@ cuminabs.ndarray( 4, x, 2, 1, y, -1, y.length-1 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-cuminabs@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var round = require( '@stdlib/math-base-special-round' );
+var Float64Array = require( '@stdlib/array-float64' );
+var cuminabs = require( '@stdlib/stats-base-cuminabs' );
 
 var y;
 var x;
@@ -186,11 +173,6 @@ console.log( y );
 
 cuminabs( x.length, x, 1, y, -1 );
 console.log( y );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -295,13 +277,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/cumaxabs]: https://github.com/stdlib-js/stats-base-cumaxabs/tree/umd
+[@stdlib/stats/base/cumaxabs]: https://github.com/stdlib-js/stats-base-cumaxabs
 
-[@stdlib/stats/base/cumin]: https://github.com/stdlib-js/stats-base-cumin/tree/umd
+[@stdlib/stats/base/cumin]: https://github.com/stdlib-js/stats-base-cumin
 
-[@stdlib/stats/base/dcuminabs]: https://github.com/stdlib-js/stats-base-dcuminabs/tree/umd
+[@stdlib/stats/base/dcuminabs]: https://github.com/stdlib-js/stats-base-dcuminabs
 
-[@stdlib/stats/base/scuminabs]: https://github.com/stdlib-js/stats-base-scuminabs/tree/umd
+[@stdlib/stats/base/scuminabs]: https://github.com/stdlib-js/stats-base-scuminabs
 
 <!-- </related-links> -->
 
