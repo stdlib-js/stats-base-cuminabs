@@ -154,7 +154,7 @@ cuminabs.ndarray( 4, x, 2, 1, y, -1, y.length-1 );
 ## Notes
 
 -   If `N <= 0`, both functions return `y` unchanged.
--   Depending on the environment, the typed versions ([`dcuminabs`][@stdlib/stats/base/dcuminabs], [`scuminabs`][@stdlib/stats/base/scuminabs], etc.) are likely to be significantly more performant.
+-   Depending on the environment, the typed versions ([`dcuminabs`][@stdlib/stats/strided/dcuminabs], [`scuminabs`][@stdlib/stats/base/scuminabs], etc.) are likely to be significantly more performant.
 
 </section>
 
@@ -208,7 +208,7 @@ console.log( y );
 
 -   <span class="package-name">[`@stdlib/stats-base/cumaxabs`][@stdlib/stats/base/cumaxabs]</span><span class="delimiter">: </span><span class="description">calculate the cumulative maximum absolute value of a strided array.</span>
 -   <span class="package-name">[`@stdlib/stats-base/cumin`][@stdlib/stats/base/cumin]</span><span class="delimiter">: </span><span class="description">calculate the cumulative minimum of a strided array.</span>
--   <span class="package-name">[`@stdlib/stats-base/dcuminabs`][@stdlib/stats/base/dcuminabs]</span><span class="delimiter">: </span><span class="description">calculate the cumulative minimum absolute value of double-precision floating-point strided array elements.</span>
+-   <span class="package-name">[`@stdlib/stats-strided/dcuminabs`][@stdlib/stats/strided/dcuminabs]</span><span class="delimiter">: </span><span class="description">calculate the cumulative minimum absolute value of double-precision floating-point strided array elements.</span>
 -   <span class="package-name">[`@stdlib/stats-base/scuminabs`][@stdlib/stats/base/scuminabs]</span><span class="delimiter">: </span><span class="description">calculate the cumulative minimum absolute value of single-precision floating-point strided array elements.</span>
 
 </section>
@@ -241,7 +241,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -297,7 +297,7 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/stats/base/cumin]: https://github.com/stdlib-js/stats-base-cumin
 
-[@stdlib/stats/base/dcuminabs]: https://github.com/stdlib-js/stats-base-dcuminabs
+[@stdlib/stats/strided/dcuminabs]: https://github.com/stdlib-js/stats-strided-dcuminabs
 
 [@stdlib/stats/base/scuminabs]: https://github.com/stdlib-js/stats-base-scuminabs
 
