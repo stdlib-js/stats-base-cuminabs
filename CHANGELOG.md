@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-29)
+## Unreleased (2025-04-23)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`7147d82`](https://github.com/stdlib-js/stdlib/commit/7147d825e46a3fdca10871ebe82f64263d9e5954) - **refactor:** rename file _(by Athan Reines)_
 -   [`690c9e0`](https://github.com/stdlib-js/stdlib/commit/690c9e0c818fea57248f9ef664b4b64d92c91d7e) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`44f6d3a`](https://github.com/stdlib-js/stdlib/commit/44f6d3a8bc68bbdd46bef336268151a883ff5476) - **refactor:** update paths _(by Aayush Khanna)_
 
@@ -25,9 +26,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
+-   Athan Reines
 
 </section>
 
