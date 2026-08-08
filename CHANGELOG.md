@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-25)
+## Unreleased (2026-08-08)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`22fe7a6`](https://github.com/stdlib-js/stdlib/commit/22fe7a64a77d8fecc54da41dac870f2249b0c731) - **bench:** update benchmarks to use decimal literals [(#13849)](https://github.com/stdlib-js/stdlib/pull/13849) _(by Karan Anand)_
 -   [`1c79757`](https://github.com/stdlib-js/stdlib/commit/1c79757a58ad07f354d864008d6f898d891cb540) - **bench:** refactor to use string interpolation in `stats/base/cuminabs` [(#10472)](https://github.com/stdlib-js/stdlib/pull/10472) _(by Vishal Gaikwad)_
 
 </details>
@@ -24,8 +25,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Karan Anand
 -   Vishal Gaikwad
 
 </section>
